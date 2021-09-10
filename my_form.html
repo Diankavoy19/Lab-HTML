@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Форми</title>
+</head>
+<style>
+table{
+background:transparent;
+padding:20px;
+border-radius: 30px;}
+.button {
+  display: inline-block;
+  text-align: center;
+  margin: 0px;
+  width: 190px;
+  height: 40px;
+  background: lightgray;
+  cursor: pointer;
+  border-radius: 10px;
+
+  box-shadow: 0 3px 20px rgba(0,0,0,.25),
+  inset 0 2px 0 rgba(255,255,255,.6),
+  0 2px 0 rgba(0,0,0,.1),
+  inset 0 0 20px rgba(0,0,0,.1);
+}
+td.col1{background: rgb(69,69,69);
+padding:10 px;
+border-radius: 10px;}
+td.col2{background: pink;padding:10 px;
+border-radius: 10px;}
+td.col3{background: violet;padding:10 px;
+border-radius: 10px;}
+button{background: gray;}
+border1{ BORDERCOLORDARK="#ffffff"; BORDERCOLORLIGHT="#738278"}
+fieldset{background: rgb(255,222,173);
+width: 70%;
+position:center;}
+
+</style>
+<body Background="img/1.fon.jpg"  background=images/fon.jpg>
+<TABLE  bgcolor="transparent" BORDER="0" class="border1" width="50%"  align="center" >
+<tr><td>
+<form method="post"  >
+<fieldset>
+<legend align="center" ><B><font size="4" face="Lucida Console" >Форма зворотнього зв'язку</font><B></legend>
+<b>Прізвище:</b><br>
+<input type=text Name="FIO" SIZE=30  VALUE="" >
+<br>
+<b>Ім'я:</b><br>
+<input type=text Name="FIO" SIZE=30 VALUE="">
+<br>
+<b>По батькові:</b><br>
+<input type=text Name="FIO" SIZE=30 VALUE="">
+<br>
+<b>Стать:</b><br>
+<label><input type="radio" name="sex" value="M" >M</label>
+<label><input type="radio" name="sex" value="Ж">Ж<br></label>
+<b>Дата народження:</b><br>
+<input type=date Name="Bithday" SIZE=30 VALUE="">
+<br>
+<b>Місце проживання: </b><br>
+<textarea Name="adress" COLS="40" ROWS="2"></textarea><br>
+Ваш email:
+<br><input type=text alt="Ваш email:" SIZE=30 VALUE="">
+<br>
+Введіть пароль:
+<br>
+<input type="password" maxlength="16"/><br>
+Введіть повідомлення:<br>
+<input type="text" alt="Ваше повідомлення:" size="30"/><br>
+<input type="submit" alt="Відправити" formaction="https://mail.google.com/mail/u/0/?tab=rm#inbox"/><br></form>
+</td></tr>
+</table>
